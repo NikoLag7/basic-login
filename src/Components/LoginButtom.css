@@ -1,0 +1,14 @@
+*{
+    margin: auto;
+    padding: auto;
+    
+}
+
+button{
+    min-height: 60px;
+    min-width: 80px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
