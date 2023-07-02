@@ -10,7 +10,7 @@ const Profile = () => {
         return <div>Loading...</div>
     }
 
-    console.log(JSON.stringify.user);
+    console.log(JSON.stringify(user));
     return (
     isAuthenticated &&(
     <div className={styles.container}>
@@ -23,14 +23,12 @@ const Profile = () => {
                 <p>Nombre</p>
                 <p>Usuario</p>
                 <p>Correo electronico</p>
-                <p>Apellido</p>
             </div>
             <div className={styles.lineaDivisoria}></div>
             <div className={styles.textContent2}>                 
                 <p>{user.name}</p>
                 <p>{user.nickname}</p>
                 <p>{user.email}</p>
-                <p>{user.family_name}</p>
             </div>
 
         </div>

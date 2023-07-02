@@ -24,19 +24,19 @@ img{
     font-weight: 700;
     text-align: end;
     width: 45%;
-    height: 200px;
+    height: 130px;
     border-radius: 8px;
 }
 
 .textContent2{
     text-align: start;
     width: 45%;
-    height: 200px;
+    height: 130px;
     border-radius: 8px;
 }
 
 .lineaDivisoria{
     width: 2px;
-    height: 200px;
+    height: 160px;
     background-color: #151c584f;
 }
