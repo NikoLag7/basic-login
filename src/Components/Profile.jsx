@@ -1,5 +1,6 @@
 import React from 'react'
 import { useAuth0 } from "@auth0/auth0-react";
+import styles from "./Profile.module.css"
 
 const Profile = () => {
   
@@ -12,11 +13,28 @@ const Profile = () => {
     console.log(JSON.stringify.user);
     return (
     isAuthenticated &&(
-    <div>
+    <div className={styles.container}>
         
         <img src={user.picture} alt={user.name}/>
-        <h2>{user.name}</h2>
-        <h2>{user.nickname}</h2>
+        
+        <div className={styles.textContent}>
+            
+            <div className={styles.textContent1}>                
+                <p>Nombre</p>
+                <p>Usuario</p>
+                <p>Correo electronico</p>
+                <p>Apellido</p>
+            </div>
+            <div className={styles.lineaDivisoria}></div>
+            <div className={styles.textContent2}>                 
+                <p>{user.name}</p>
+                <p>{user.nickname}</p>
+                <p>{user.email}</p>
+                <p>{user.family_name}</p>
+            </div>
+
+        </div>
+
        
     </div>
     )

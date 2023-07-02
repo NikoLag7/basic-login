@@ -16,17 +16,20 @@ function App() {
 
 
     <div className="App">
+      
 
-      <h1> Iniciar sesión</h1>
-      {
-        isAuthenticated ? <LogoutButtom/> : <LoginButtom/>
-      }
-      
-      <Profile/>
-     
-      
-    </div>
+          <h1> Iniciar sesión</h1>
+          <Profile/>
+          {
+            isAuthenticated ? <LogoutButtom/> : <LoginButtom/>
+          }
+          
+          
+        
+          
+       
     
+      </div>
 
       
   );

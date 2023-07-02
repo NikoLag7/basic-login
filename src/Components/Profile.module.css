@@ -1,0 +1,42 @@
+.container{
+    width: 500px;
+    background-color: aliceblue;
+    margin: 50px 0 50px 0;
+    padding: 40px;
+    border-radius: 5%;
+}
+
+img{
+    border-radius: 40%;
+    height: 150px;
+}
+
+.textContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    font-family: fangsong;
+}
+
+.textContent1{
+    font-weight: 700;
+    text-align: end;
+    width: 45%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.textContent2{
+    text-align: start;
+    width: 45%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.lineaDivisoria{
+    width: 2px;
+    height: 200px;
+    background-color: #151c584f;
+}
